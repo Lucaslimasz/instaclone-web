@@ -5,6 +5,7 @@ export const Container = styled.div`
   padding: 15px 0;
 
   background: #000;
+  border-bottom: 1px solid #393f41;
 `;
 
 export const Wrapper = styled.div`
@@ -20,7 +21,7 @@ export const Wrapper = styled.div`
 export const ContainerInput = styled.div`
   background: #0e0f0f;
   border-radius: 2px;
-  border: 1px solid #393F41;
+  border: 1px solid #393f41;
 
   margin-left: 150px;
 
@@ -37,10 +38,11 @@ export const ContainerInput = styled.div`
     height: 30px;
     width: 200px;
     margin-left: 8px;
-    font-size: 15 px;
+    font-size: 15px;
+    color: #fff;
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -49,7 +51,7 @@ export const Buttons = styled.div`
   display: flex;
   align-items: center;
 
-  .perfil-photo{
+  .perfil-photo {
     border-radius: 100px;
   }
 
@@ -62,6 +64,5 @@ export const Buttons = styled.div`
       margin-left: 20px;
       stroke: red;
     }
-
   }
 `;

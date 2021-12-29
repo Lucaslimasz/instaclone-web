@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   *{
@@ -7,6 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, 'sans-serif';
   }
 
   body {
