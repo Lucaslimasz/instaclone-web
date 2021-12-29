@@ -1,5 +1,5 @@
-import Home from './pages/home';
-import GlobalStyle from './styles/global';
+import Home from "./pages/home";
+import GlobalStyle from "./styles/global";
 
 function App() {
   return (
